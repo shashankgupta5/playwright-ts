@@ -4,7 +4,7 @@
   "description": "Playwright ts project",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"**/*.{ts,js,json}\"",
+    "format": "prettier --write \"**/*.{ts,js,json,yml,yaml}\"",
     "test": "playwright test --project=chromium",
     "test:headed": "playwright test --headed --project=chromium"
   },
